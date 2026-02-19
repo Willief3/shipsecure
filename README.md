@@ -8,13 +8,13 @@ A free, open-source security scanner that gives founders a quick health check be
 ![License](https://img.shields.io/badge/License-MIT-green)
 ![Streamlit](https://img.shields.io/badge/Built%20with-Streamlit-FF4B4B)
 
-## 🎯 Why ShipSecure?
+## Why ShipSecure?
 
 AI/biotech startups ship fast. Security gets deprioritized. Existing tools (Nmap, Nuclei, Burp) are built for security engineers, not founders checking their landing page before launch.
 
 **ShipSecure bridges the gap:** enter your domain → get a risk score → get actionable fixes with time estimates.
 
-## ✨ What It Checks
+##  What It Checks
 
 | Category | Checks | Why It Matters |
 |----------|--------|----------------|
@@ -22,7 +22,7 @@ AI/biotech startups ship fast. Security gets deprioritized. Existing tools (Nmap
 | **Security Headers** | HSTS, CSP, X-Frame-Options, etc. | Missing headers = XSS, clickjacking, MITM risks |
 | **Email Security** | SPF, DMARC, DKIM | Missing = anyone can spoof emails from your domain |
 
-### 🛡️ Security Philosophy
+###  Security Philosophy
 
 This tool performs **passive, non-intrusive checks only**:
 - No port scanning
@@ -32,7 +32,7 @@ This tool performs **passive, non-intrusive checks only**:
 
 **Important:** Only scan domains you own or have explicit permission to test.
 
-## 🚀 Quick Start
+## Quick Start
 
 ```bash
 # Clone the repo
@@ -48,7 +48,7 @@ streamlit run app.py
 
 Then open `http://localhost:8501` in your browser.
 
-## 📊 Understanding Your Score
+##  Understanding Your Score
 
 | Score | Grade | Meaning |
 |-------|-------|---------|
@@ -58,14 +58,14 @@ Then open `http://localhost:8501` in your browser.
 | 60-69 | D | At risk, prioritize fixes |
 | 0-59 | F | Critical issues, fix immediately |
 
-## 🔧 Severity Levels
+## Severity Levels
 
 - **🔴 Critical**: Fix now. Active security risk.
 - **🟠 High**: Fix this week. Significant exposure.
 - **🟡 Medium**: Fix this month. Best practice gaps.
 - **🟢 Low/Info**: Nice to have. Minor improvements.
 
-## 🗺️ Roadmap
+## Roadmap
 
 ### v1.1
 - [ ] PDF report export
@@ -83,7 +83,7 @@ Then open `http://localhost:8501` in your browser.
 - [ ] Scheduled monitoring
 - [ ] Team dashboards
 
-## 🤝 Contributing
+##  Contributing
 
 PRs welcome! Areas where help is needed:
 - Additional security checks
