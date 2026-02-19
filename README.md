@@ -36,7 +36,7 @@ This tool performs **passive, non-intrusive checks only**:
 
 ```bash
 # Clone the repo
-git clone https://github.com/yourusername/shipsecure.git
+git clone https://github.com/Willief3/shipsecure.git
 cd shipsecure
 
 # Install dependencies
