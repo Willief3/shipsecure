@@ -1,4 +1,4 @@
-# 🛡️ ShipSecure
+# ShipSecure
 
 **Instant security assessment for startups that ship fast.**
 
@@ -95,11 +95,11 @@ PRs welcome! Areas where help is needed:
 
 MIT License - Use freely, build on it, share the knowledge.
 
-## ⚠️ Disclaimer
+## Disclaimer
 
 This tool is for educational and authorized testing purposes only. Users are responsible for ensuring they have permission to scan any domain. The authors are not responsible for misuse.
 
-## 🙏 Acknowledgments
+##  Acknowledgments
 
 Built with insights from:
 - OWASP Security Headers Project
